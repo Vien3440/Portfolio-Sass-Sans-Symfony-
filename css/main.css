@@ -1,0 +1,373 @@
+/*******Police *****/
+@font-face {
+  font-family: regular;
+  src: url(font/Philosopher-BoldItalic.ttf); }
+/*********Onbrage ********/
+.navbar-default {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  z-index: 2; }
+  .navbar-default div h3 {
+    font-size: 30px;
+    font-family: regular;
+    color: #697279;
+    text-align: center; }
+
+/******Triangle*****/
+.triangle {
+  width: 0;
+  height: 100%;
+  border-style: solid  !important;
+  border-color: #de6060 transparent transparent transparent  !important;
+  webkit-transform: rotate(360deg); }
+
+/* Nav Side */
+.logoNav {
+  z-index: 1; }
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px; }
+
+.section-title h1 {
+  margin: 0;
+  line-height: 50px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: white; }
+
+.border {
+  display: block;
+  height: 10px;
+  margin-bottom: 40px;
+  width: 100px;
+  background: #ED5565; }
+
+.row {
+  width: 50%;
+  min-height: 1px;
+  float: left;
+  position: relative;
+  display: inline-block; }
+
+.row ul {
+  margin: 0 20px 0 0 !important;
+  text-align: left !important;
+  padding: 0; }
+
+.row ul li {
+  list-style: none !important; }
+
+.row ul li em {
+  display: block;
+  margin-bottom: 15px; }
+
+.row ul li div {
+  margin-bottom: 35px;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  background: #09131B;
+  height: 42px;
+  overflow: hidden; }
+
+.row ul li div span {
+  height: 42px;
+  width: 50%;
+  display: block;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px; }
+
+.row ul li.html div span {
+  background: #E13C4C;
+  width: 90%; }
+
+.row ul li.css div span {
+  background: #ffdb43;
+  width: 90%; }
+
+.row ul li.php div span {
+  background: #9D2027;
+  width: 80%; }
+
+.row ul li.mysql div span {
+  background: #3498db;
+  width: 75%; }
+
+.row ul li.jquery div span {
+  background: #2ecc71;
+  width: 60%; }
+
+.row ul li.javascript div span {
+  background: #A94034; }
+
+.row ul li.seo div span {
+  background: #FF8137;
+  width: 60%; }
+
+.row ul li.unix div span {
+  width: 65%;
+  background: #0CBFB3; }
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft; }
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none; } }
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    -ms-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0); }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none; } }
+.sidenav {
+  height: 100%;
+  /* 100% Full-height */
+  width: 0;
+  /* 0 width - change this with JavaScript */
+  position: fixed;
+  /* Stay in place */
+  z-index: 2;
+  /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111;
+  /* Black*/
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  padding-top: 60px;
+  /* Place content 60px from the top */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in the sidenav */ }
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s; }
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus {
+  color: #f1f1f1; }
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px; }
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  padding: 20px; }
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px; }
+
+  .sidenav a {
+    font-size: 18px; } }
+header {
+  background-size: 130%;
+  width: 100%;
+  min-height: 100%;
+  position: relative !important;
+  background-size: cover;
+  background-position: center;
+  background-position-y: 50px;
+  background-repeat: no-repeat;
+  background-image: url("img/header4degr.png"); }
+  header div > h1 {
+    margin: 0px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 5px;
+    font-weight: 600; }
+
+/********Paragraphe Skill*******/
+.skilsText {
+  background: #111c27; }
+  .skilsText h3 {
+    font-family: regular;
+    color: #697279;
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0px; }
+
+/********Skill Bars*******/
+.sectionSkils {
+  padding-top: 50px;
+  background: #111c27;
+  font: 14px/1.6 "Open Sans",Helvetica,Arial,sans-serif;
+  color: #697279; }
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 20px; }
+
+.section-title h1 {
+  margin: 0;
+  line-height: 50px;
+  letter-spacing: 5px;
+  font-weight: 600;
+  color: white; }
+  .section-title h1 .border {
+    display: block;
+    height: 10px;
+    margin-bottom: 40px;
+    width: 100px;
+    background: #ED5565; }
+
+ul {
+  padding: 0px; }
+  ul li {
+    list-style: none !important; }
+
+ul li em {
+  display: block;
+  text-align: center;
+  margin-bottom: 15px; }
+
+ul li div {
+  margin-bottom: 35px;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px;
+  background: #09131B;
+  height: 42px;
+  overflow: hidden; }
+
+ul li div span {
+  height: 42px;
+  width: 50%;
+  display: block;
+  border-radius: 3px 3px 3px 3px;
+  -webkit-border-radius: 3px 3px 3px 3px; }
+
+ul li.html div span {
+  background: #e44d26;
+  width: 90%; }
+
+ul li.css div span {
+  background: #0070bb;
+  width: 90%; }
+
+ul li.php div span {
+  background: #3f4d88;
+  width: 45%; }
+
+ul li.mysql div span {
+  background: #00a9a3;
+  width: 40%; }
+
+ul li.jquery div span {
+  background: #c94541;
+  width: 60%; }
+
+ul li.boostrap div span {
+  background: #614789;
+  width: 60%; }
+
+ul li.symphony div span {
+  background: #e5e5e5;
+  width: 60%; }
+
+/*ul li.unix div span { width: 65%; background: #0CBFB3; }*/
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft; }
+
+.logoNav {
+  position: fixed; }
+
+.title-projet {
+  line-height: 50px;
+  letter-spacing: 5px;
+  font-weight: 600; }
+
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: fff;
+  border: 1px solid ffff;
+  padding: 0px;
+  border-radius: 4px;
+  -webkit-box-shadow: -2px 4px 22px 11px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: -2px 4px 22px 11px rgba(0, 0, 0, 0.34);
+  box-shadow: -2px 4px 22px 11px rgba(0, 0, 0, 0.34); }
+  .thumbnail div h3 {
+    font-family: regular;
+    color: #697279; }
+
+#footerHeader {
+  margin-top: 50px;
+  background: -moz-linear-gradient(top, transparent 0%, #111c27 100%);
+  background: -webkit-linear-gradient(top, transparent 0%, #111c27 100%);
+  background: linear-gradient(to bottom, transparent 0%, #111c27 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='##111c27',GradientType=0 ); }
+
+#footer {
+  background-color: #111c27; }
+  #footer p:first-child {
+    margin-top: 50px; }
+  #footer p {
+    font-size: 20px;
+    font-family: regular;
+    color: #697279; }
+  #footer .contact {
+    text-align: center;
+    font-size: 50px; }
+  #footer ul {
+    margin-top: 50px; }
+    #footer ul li {
+      padding-right: 0px;
+      padding-left: 0px; }
+
+.contact {
+  background-color: #111c27; }
+
+.bodyContac {
+  background-color: #111c27; }
+
+.title {
+  color: #eee; }
+
+/*# sourceMappingURL=main.css.map */

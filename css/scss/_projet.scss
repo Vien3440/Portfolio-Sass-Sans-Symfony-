@@ -1,0 +1,27 @@
+.title-projet{
+      line-height: 50px;
+    letter-spacing: 5px;
+    font-weight: 600;
+} 
+.projet{
+   
+}
+.thumbnail {
+    
+    display: block;
+    padding: 4px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: fff;
+    border: 1px solid ffff;
+    padding: 0px;
+    border-radius: 4px;
+    @include borderShadoow;
+    div{
+        h3{
+            font-family:regular;
+            color: #697279;
+        }
+    }
+}
